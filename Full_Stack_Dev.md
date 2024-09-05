@@ -74,8 +74,6 @@ Experienced Full-Stack Developer with expertise in **Python** and **React**, spe
   - Built real-time data processing systems using **React** and **Python**.
   - Utilized **Kafka** and **MongoDB** for event-driven architectures.
 
----
-
 ### **Dataviv Technologies** | Software Engineer Intern  
 **Mumbai** | June 2021 - Sep 2021
 
