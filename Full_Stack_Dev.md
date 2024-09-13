@@ -1,5 +1,4 @@
-# Khursheed Gaddi - Full-Stack Developer
-
+## KHURSHEED GADDI - FULL-STACK DEVELOPER**  
 **Location:** Mumbai, MH  
 **Email:** [gaddi33khursheed@gmail.com](mailto:gaddi33khursheed@gmail.com)  
 **LinkedIn:** [linkedin.com/in/khursheed33](https://linkedin.com/in/khursheed33)  
@@ -8,127 +7,79 @@
 
 ---
 
-## Professional Summary
+### PROFESSIONAL SUMMARY
 
-Experienced Full-Stack Developer with expertise in **Python** and **React**, specializing in **Generative AI** and **scalable web applications**. Proficient in developing end-to-end solutions, leveraging **LLMs (Large Language Models)** and creating conversational AI applications. Skilled in integrating APIs and managing **SQL** and **NoSQL** databases for dynamic and data-driven applications. Adept in **Azure DevOps**, including **Pipelines**, **Blob Storage**, and **Redis**.
-
----
-
-## Key Skills
-
-### Programming Languages
-- **Backend:** Python, FastAPI, Flask
-- **Frontend:** React, JavaScript
-- **Other:** Dart (Flutter), Node.js
-
-### AI & Machine Learning
-- Generative AI, Embeddings, LLM Models
-- Natural Language Processing, Speech-to-Text, Text-to-Speech
-
-### Databases
-- SQL: PostgreSQL, MySQL, SQLite
-- NoSQL: MongoDB, Firebase, Hive
-
-### Development Frameworks
-- MVC, MVVM, Clean Architecture
-
-### DevOps & Cloud
-- Docker, Kubernetes, CI/CD
-- **Azure DevOps:** Pipelines, Azure Blob Storage
-- **Azure Services:** LLM Models, Redis, PGVector, PostgreSQL
-
-### Tools & APIs
-- LangChain, Kafka, REST APIs, GraphQL
+Dynamic Backend Engineer with extensive experience in Python and Node.js, specializing in Generative AI, database management, and creating robust, scalable solutions. Expertise in developing conversational AI applications and integrating cutting-edge technologies to optimize performance and enhance user experience. Passionate about staying updated with the latest tech trends and committed to delivering high-quality software solutions.
 
 ---
 
-## Work Experience
+### WORK EXPERIENCE
 
-### **e-Zest Digital Solutions** | Full-Stack Developer  
-**Pune** | Oct 2021 - Present
+**e-Zest Digital Solutions** - Software Engineer (Backend)  
+Pune, 10/2021 - Present
 
-- **Knowledge Assistant and Extractor** (Affable)
-  - Full-stack development using **React** and **Python** for building an AI-powered chatbot.
-  - Enabled **natural language querying** to interact directly with databases.
-  - Utilized **Azure services** like **Redis** and **PGVector** for enhanced performance.
+- **NL Chatbot**: Developed both frontend and backend components using Flutter and Python. Created APIs with FastAPI and Flask, integrated Generative AI (LLM) using Langchain, and implemented a chatbot capable of querying databases and documents directly.
+- **CWT**: Developed UI using Flutter, processed Excel data with predefined rules, and managed property call tasks and status updates. Generated and sent status reports and performed data reconciliation.
+- **Act-ion AI**: Contributed to backend development with Node.js, utilized Kafka for data integration with MongoDB, and designed user subscription functionalities within the system.
+- **Knowledge Assistant and Extractor**: Enabled natural language querying for direct database interaction and extracted information based on user prompts for Excel export.
+- **JIMS Virtual Assistant**: Implemented a RAG-based chatbot with document ingestion, multi-language support, and user history management.
+- **GenDash**: Developed a chatbot for app creation and dashboard management with natural language commands.
 
-- **JIMS Virtual Assistant** (IOM)
-  - Developed a multi-lingual document-based chatbot using **React** and **Python**.
-  - Implemented dynamic document ingestion and escalation functionality for unanswered queries.
-  - Managed **Azure Pipelines** and **Azure Blob Storage** for CI/CD and data handling.
+**Dataviv Technologies** - Software Engineer Intern  
+Mumbai, 06/2021 - 09/2021
 
-- **GenDash** (Igrafx)
-  - Built a chatbot capable of creating dashboards and applications through natural language commands.
-  - Integrated **SQL** and **NoSQL** databases for storing and visualizing user data.
+- Contributed to various projects using Flutter, Dart, and Python. Worked on mobile and web applications, API integration, and collaborated with cross-functional teams using Agile methodology.
 
-- **WHO NL Chatbot**
-  - Full-stack development using **React (frontend)** and **Python (backend)**.
-  - Integrated **Generative AI** and **LangChain** for natural language processing.
-  - Developed APIs using **Flask**, enabling seamless data querying and chatbot functionality.
+**Freelancing**
 
-- **CWT**
-  - Designed a responsive UI with **React** and implemented backend logic in **Python**.
-  - Processed and visualized large datasets (e.g., hotel bookings) using **SQL** and automated report generation.
-
-- **Act-ion AI**
-  - Built real-time data processing systems using **React** and **Python**.
-  - Utilized **Kafka** and **MongoDB** for event-driven architectures.
-
-### **Dataviv Technologies** | Software Engineer Intern  
-**Mumbai** | June 2021 - Sep 2021
-
-- Contributed to full-stack development projects using **React** and **Python**.
-- Participated in the integration of APIs and management of **SQL/NoSQL** databases.
+- **MyMarket**: Developed and managed mobile applications using Flutter, optimized app performance, integrated APIs, and guided developers with code standards. Played a role in backend API development with Node.js.
+- **Genset Canopy (DesignMatix)**: Created a SolidWorks-based tool for generating 3D models from user inputs.
+- **MyMuster**: Digitized school/college tasks to reduce manual efforts in day-to-day operations.
+- **Clean Architecture Boiler Template**: Developed a Flutter boilerplate using Clean Architecture with MVVM and Riverpod for state management.
+- **Goods Management**: Created an application for local shops to manage goods, check stock, generate sales bills, and view monthly sales reports.
+- **Live Vehicle Tracking**: Developed a vehicle tracking app with live location tracking on Google Maps.
 
 ---
 
-## Freelance Projects
+### EDUCATION
 
-### **MyMarket**
-- Developed an e-commerce platform using **React** and **Python**.
-- Enhanced application performance and user experience through **state management** and **API integration**.
-
-### **Live Vehicle Tracking**
-- Developed a vehicle tracking system with **React** frontend and **Python** backend.
-- Implemented real-time location tracking using the **Google Maps API**.
-
-### **MyMuster (Institute Management ERP)**
-- Built an ERP solution for educational institutions using **React** and **Python**, reducing manual operations through automation.
+**B.E. Computer Science**, Theem College of Engineering, September 2021  
+**HSC**, RMC College of Science and Commerce, October 2017
 
 ---
 
-## Notable Projects
+### CERTIFICATIONS
 
-### **Knowledge Assistant and Extractor** (Affable)
-- Full-stack development using **React** and **Python** for building an AI-powered chatbot.
-- Enabled **natural language querying** to interact directly with databases.
-
-### **JIMS Virtual Assistant** (IOM)
-- Developed a multi-lingual document-based chatbot using **React** and **Python**.
-- Implemented dynamic document ingestion and escalation functionality for unanswered queries.
-
-### **GenDash** (Igrafx)
-- Built a chatbot capable of creating dashboards and applications through natural language commands.
-- Integrated **SQL** and **NoSQL** databases for storing and visualizing user data.
+- **Flutter** - [Month & Year Earned]
+- **Python** - [Awarding Body, Month & Year Earned]
+- **Generative AI** - [Awarding Body, Month & Year Earned]
 
 ---
 
-## Education
+### SKILLS
 
-- **B.E: Computer Science**  
-  Theem College of Engineering | University of Mumbai, 2021
+- **Programming Languages**: Python, Node.js, JavaScript
+- **Backend Technologies**: FastAPI, Flask, Express.js, NodeRED
+- **AI & Machine Learning**: Generative AI, Embeddings, LLM Models, Speech to Text, Text to Speech
+- **Databases**: PostgreSQL, MySQL, MongoDB, SQL Server, SQLite, Firebase, Hive
+- **Development Frameworks**: MVC, MVVM, Clean Architecture
+- **Version Control**: Git, GitLab, GitHub
+- **APIs**: REST APIs, Kafka
+- **Methodologies**: Agile, SOLID, DRY
+- **Cloud & DevOps**: Docker, Kubernetes
+- **Tools**: pgvector, LangChain
+
+---
+
+### LANGUAGES
+
+- **Hindi/Urdu** - Native
+- **English** - Proficient
+- **Marathi** - Understanding
 
 ---
 
-## Languages
+### ACTIVITIES AND INTERESTS
 
-- English, Hindi/Urdu, Marathi
-
----
-
-## Version Control & Collaboration
-
-- Git, GitHub, GitLab
-- **Azure DevOps:** Pipelines
-
----
+- **Cricket**: Actively participate in local cricket leagues and tournaments. Enjoy playing as a part of a team and developing strategies for winning games.
+- **Programming**: Passionate about coding, exploring new technologies, and contributing to open-source projects. Regularly engage in personal programming challenges and hackathons.
