@@ -1,4 +1,4 @@
-## KHURSHEED GADDI - FULL-STACK DEVELOPER**  
+## KHURSHEED GADDI - FULL-STACK DEVELOPER 
 **Location:** Mumbai, MH  
 **Email:** [gaddi33khursheed@gmail.com](mailto:gaddi33khursheed@gmail.com)  
 **LinkedIn:** [linkedin.com/in/khursheed33](https://linkedin.com/in/khursheed33)  
