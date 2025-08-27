@@ -9,13 +9,13 @@ Accomplished Backend Engineer with deep expertise in Python, Generative AI, and 
 
 ## WORK EXPERIENCE
 
-### 1. e-Zest Digital Solutions - Software Engineer (Backend)  
+### 1. e-Zest Digital Solutions - Senior Software Engineer 
 Pune | 10/2021 - Current
 
-- **Java 8 to Java 21 (Legacy Code Migration)**  
+- **Java 8 to Java 21 - (Legacy Code Migration)**  
   - Migrating the Java 8 Maven project to Java 21 Maven using AI agents, a team of agents working in harmony to complete the task, analyzing the project, parsing it, ingesting into Graph DB Neo4j, and then migrating it using Agents. (June 2025 - September 2025, currently working)
 
-- **Perl to Java Migration**  
+- **Perl to Java Migration - (Legacy Code Migration)**  
   - Perl parser to parse the legacy code in AST and ingested into Graph DB, reading from Graph DB to build context for Agents and migrating from Perl to Java. (August 2025 - current)
 
 - **JIMS Virtual Assistant**  
@@ -23,12 +23,18 @@ Pune | 10/2021 - Current
   - Implemented a feature to escalate user queries if no results are found in the documents, based on user choice.  
   - Integrated multi-language support and stored user history for 8 hours per user.
 
-- **Knowledge Assistant and Extractor Affable**  
+- **Code Parser**
+  - Developed **code parsers** that transform source code into **Abstract Syntax Trees (ASTs)** for deeper analysis and processing.  
+  - Supports multiple programming languages and formats: **Java, .NET, VB.NET, Delphi, XML, Perl, Ruby**.  
+  - Enables use cases like **code analysis, transformation, documentation, and AI-driven insights**.  
+  - Designed to be extensible and adaptable for different **parsing workflows**. 
+
+- **Knowledge Assistant and Extractor**  
   - AI-based chatbot with dynamic database management.  
   - Enabled natural language querying for direct database interaction.  
   - Extracted information based on user prompts and exported them into Excel.
 
-- **GenDash Igrafx**  
+- **GenDash**  
   - Developed a conversational chatbot for creating apps and adding dashboards.  
   - Allowed users to add charts to dashboards through natural language commands.
 
@@ -39,7 +45,14 @@ Pune | 10/2021 - Current
   - Implemented a chatbot capable of querying databases and documents directly.  
   - Enabled the chatbot to provide information in natural language format based on user queries.
 
-- **CWT**  
+- **KAPS Framework**
+  - Knowledge Assistant: Enables conversational AI over domain-specific knowledge bases, supporting contextual Q&A and insights.  
+  - Extractor: Processes large volumes of data, extracts information using custom prompts, and exports in structured formats.  
+  - Analytics: Builds dashboards, generates intelligent charts from data sources, and allows prompt-based chart generation.  
+  - Multi-LLM Support: Integrates with multiple LLM providers like **OpenAI, Mistral, Bedrock, local LLMs**, and more.  
+  - Tech Stack: Built with **Python** (backend orchestration), **React** (UI), and **Neo4j** (as the primary graph database).  
+
+- **CWT Debt Collection Tool**  
   - Developed UI using Flutter and implemented API integrations following Clean Architecture principles.  
   - Processed Excel data containing hotel booking information with predefined rules.  
   - Assigned tasks to agents for property calls and follow-ups, updating property status accordingly.  
@@ -51,6 +64,7 @@ Pune | 10/2021 - Current
   - Utilized Kafka to connect with data sources, periodically pulling and pushing data to MongoDB.  
   - Implemented user subscription to Kafka topics for message consumption and event creation.  
   - Designed role assignment functionalities within the system for user management.
+  - AI Assistat for creating workflows/processes
 
 ### 2. Dataviv Technologies – SE Intern  
 Mumbai | 06/2021 - 09/2021
