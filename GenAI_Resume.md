@@ -18,7 +18,7 @@ Pune | 10/2021 - Current
 - **Perl to Java Migration**  
   - Perl parser to parse the legacy code in AST and ingested into Graph DB, reading from Graph DB to build context for Agents and migrating from Perl to Java. (August 2025 - current)
 
-- **JIMS Virtual Assistant - IOM**  
+- **JIMS Virtual Assistant**  
   - RAG-based chatbot with document ingestion for conversational queries.  
   - Implemented a feature to escalate user queries if no results are found in the documents, based on user choice.  
   - Integrated multi-language support and stored user history for 8 hours per user.
@@ -32,7 +32,7 @@ Pune | 10/2021 - Current
   - Developed a conversational chatbot for creating apps and adding dashboards.  
   - Allowed users to add charts to dashboards through natural language commands.
 
-- **WHO - NL Chatbot**  
+- **NL Chatbot for Anlytics**  
   - Developed both frontend and backend components using Flutter and Python.  
   - Created APIs with FastAPI and Flask for seamless communication between frontend and backend.  
   - Integrated Generative AI (LLM) using Langchain for natural language processing.  
