@@ -3,411 +3,360 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KHURSHEED RAZZAK GADDI - Resume v4.5</title>
+    <title>Khursheed Razzak Gaddi - Resume v4.5</title>
     <style>
         @page {
+            margin: 0.75in;
             size: A4;
-            margin: 0.5in;
-        }
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
         }
         
         body {
             font-family: 'Calibri', 'Arial', sans-serif;
-            font-size: 10pt;
-            line-height: 1.2;
-            color: #333;
+            font-size: 11pt;
+            line-height: 1.15;
+            color: #000;
+            margin: 0;
+            padding: 0;
             background: white;
-            padding: 15px;
         }
         
         .container {
             max-width: 8.5in;
             margin: 0 auto;
-            background: white;
             padding: 0;
         }
         
-        .header {
-            text-align: center;
-            margin-bottom: 15px;
-            border-bottom: 2px solid #2c5282;
-            padding-bottom: 10px;
-        }
-        
-        .name {
-            font-size: 16pt;
+        h1 {
+            font-size: 18pt;
             font-weight: bold;
-            color: #2c5282;
-            margin-bottom: 3px;
-            letter-spacing: 1px;
+            color: #2c5aa0;
+            text-align: center;
+            margin: 0 0 8pt 0;
+            letter-spacing: 2px;
         }
         
         .contact-info {
-            font-size: 9pt;
-            color: #555;
-            margin-bottom: 5px;
+            text-align: center;
+            font-size: 10pt;
+            margin-bottom: 16pt;
+            color: #333;
         }
         
-        .section {
-            margin-bottom: 12px;
+        .contact-info a {
+            color: #2c5aa0;
+            text-decoration: none;
         }
         
-        .section-title {
+        h2 {
+            font-size: 12pt;
+            font-weight: bold;
+            color: #2c5aa0;
+            border-bottom: 1.5pt solid #2c5aa0;
+            padding-bottom: 2pt;
+            margin: 16pt 0 8pt 0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        h3 {
             font-size: 11pt;
             font-weight: bold;
-            color: #2c5282;
-            border-bottom: 1px solid #2c5282;
-            margin-bottom: 6px;
-            padding-bottom: 2px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
+            color: #000;
+            margin: 12pt 0 4pt 0;
         }
         
-        .subsection {
-            margin-bottom: 8px;
-        }
-        
-        .job-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 3px;
-        }
-        
-        .job-title {
-            font-weight: bold;
+        h4 {
             font-size: 10pt;
-            color: #2c5282;
-        }
-        
-        .company-info {
-            font-size: 9pt;
-            color: #666;
-            margin-bottom: 4px;
-        }
-        
-        .project-title {
             font-weight: bold;
-            font-size: 9.5pt;
-            color: #1a365d;
-            margin: 6px 0 2px 0;
+            color: #444;
+            margin: 8pt 0 4pt 20pt;
+            font-style: italic;
         }
         
-        .bullet-points {
-            margin-left: 12px;
-            margin-bottom: 4px;
+        p {
+            margin: 4pt 0;
+            text-align: justify;
         }
         
-        .bullet-points li {
-            margin-bottom: 2px;
-            font-size: 9pt;
-            line-height: 1.3;
-            list-style-type: disc;
-        }
-        
-        .sub-bullets {
-            margin-left: 15px;
-            margin-top: 2px;
-        }
-        
-        .sub-bullets li {
-            font-size: 9pt;
-            list-style-type: circle;
-            margin-bottom: 1px;
+        .professional-summary {
+            margin-bottom: 12pt;
         }
         
         .skills-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 8px;
-            margin-bottom: 8px;
+            gap: 4pt;
+            margin-bottom: 8pt;
         }
         
-        .skill-category {
-            margin-bottom: 4px;
+        .skills-item {
+            margin: 2pt 0;
+            padding-left: 0;
         }
         
-        .skill-title {
+        .skills-item strong {
+            color: #2c5aa0;
             font-weight: bold;
-            font-size: 9pt;
-            color: #2c5282;
-            margin-bottom: 1px;
         }
         
-        .skill-items {
-            font-size: 9pt;
-            line-height: 1.2;
-            color: #444;
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 4pt;
         }
         
-        .education-item {
-            margin-bottom: 4px;
-        }
-        
-        .degree {
+        .job-title {
             font-weight: bold;
-            font-size: 9pt;
+            color: #000;
+            font-size: 11pt;
         }
         
-        .institution {
-            font-size: 9pt;
+        .job-location-date {
+            font-size: 10pt;
             color: #666;
+            font-style: italic;
         }
         
-        .two-column {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 15px;
+        .project-list {
+            margin-left: 16pt;
         }
         
-        .achievement-item {
-            font-size: 9pt;
-            margin-bottom: 2px;
+        .project-item {
+            margin-bottom: 12pt;
         }
         
-        .bold-text {
+        .project-bullets {
+            margin-left: 20pt;
+            margin-top: 4pt;
+        }
+        
+        .project-bullets li {
+            margin-bottom: 3pt;
+            text-align: justify;
+            list-style-type: disc;
+        }
+        
+        .education-item, .cert-item, .activity-item {
+            display: flex;
+            justify-content: space-between;
+            margin: 4pt 0;
+        }
+        
+        .education-title, .cert-title, .activity-title {
             font-weight: bold;
-            color: #2c5282;
+        }
+        
+        .education-date, .cert-date, .activity-date {
+            color: #666;
+            font-style: italic;
+        }
+        
+        .responsibilities ul {
+            margin-left: 16pt;
+            margin-top: 4pt;
+        }
+        
+        .responsibilities li {
+            margin-bottom: 3pt;
+            list-style-type: disc;
+        }
+        
+        .languages {
+            display: flex;
+            gap: 20pt;
+            flex-wrap: wrap;
+        }
+        
+        .languages span {
+            font-weight: bold;
         }
         
         @media print {
-            body { 
-                -webkit-print-color-adjust: exact;
-                print-color-adjust: exact;
-            }
-            
-            .section {
-                page-break-inside: avoid;
-            }
+            body { print-color-adjust: exact; }
+            .container { max-width: none; }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <!-- Header -->
-        <div class="header">
-            <div class="name">KHURSHEED RAZZAK GADDI</div>
-            <div class="contact-info">
-                Email: gaddi33khursheed@gmail.com | Phone: (+91) 998-711-9862 | LinkedIn | Github
+        <h1>KHURSHEED RAZZAK GADDI</h1>
+        
+        <div class="contact-info">
+            <strong>Email:</strong> gaddi33khursheed@gmail.com | 
+            <strong>Phone:</strong> (+91) 998-711-9862 | 
+            <strong>LinkedIn:</strong> <a href="#">LinkedIn</a> | 
+            <strong>Github:</strong> <a href="#">Github</a>
+        </div>
+
+        <h2>Professional Summary</h2>
+        <div class="professional-summary">
+            <p>Accomplished Full-Stack Engineer with over 4 years of experience building scalable web applications using React, Python, and FastAPI, with a strong focus on integrating Generative AI (GenAI) solutions to enhance functionality. Proficient in developing and optimizing systems with PostgreSQL, Redis, and cloud platforms, ensuring high performance and reliability. Skilled in creating user-friendly interfaces, maintaining PowerBI dashboards, and producing clear technical documentation. Adept at collaborating with cross-functional teams, troubleshooting complex issues, and integrating workflow automation tools to deliver intelligent, data-driven solutions.</p>
+        </div>
+
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skills-item"><strong>Backend Technologies:</strong> Python (primary), FastAPI, Flask, Node.js, Express.js, Dart, REST APIs</div>
+            <div class="skills-item"><strong>Frontend Development:</strong> ReactJS, Flutter, HTML, CSS</div>
+            <div class="skills-item"><strong>AI & Machine Learning:</strong> Generative AI, LangChain, Langgraph, LangSmith, Agents, Supervisor Workflows, Document Parsing, Code Parsing</div>
+            <div class="skills-item"><strong>LLM Providers:</strong> OpenAI, Grok, Groq, Anthropic, Mistral, AWS Bedrock</div>
+            <div class="skills-item"><strong>Databases:</strong> PostgreSQL, Redis, MongoDB, DynamoDB, SQLite, Chroma, VectorDB, Pinecone, Neo4j Graph DB, Nebula Graph DB</div>
+            <div class="skills-item"><strong>Local Storage:</strong> Redis, Hive, SQFlite</div>
+            <div class="skills-item"><strong>Cloud & DevOps:</strong> AWS (S3, Lambda, API Gateway, Bedrock), Docker, Kubernetes, Nginx</div>
+            <div class="skills-item"><strong>Tools:</strong> VSCode, IntelliJ IDEA, Visual Studio, Cursor IDE, PowerBI</div>
+            <div class="skills-item"><strong>Design Patterns:</strong> MVC, MVVM, Clean Architecture</div>
+            <div class="skills-item"><strong>Version Control:</strong> Git, GitHub, GitLab</div>
+            <div class="skills-item"><strong>Other:</strong> Workflow automation, technical documentation, software testing, UI/UX optimization</div>
+        </div>
+
+        <h2>Work Experience</h2>
+        
+        <div class="job-header">
+            <span class="job-title">e-Zest Digital Solutions - Senior Software Engineer</span>
+            <span class="job-location-date">Pune | 10/2021 - Current</span>
+        </div>
+        
+        <div class="project-list">
+            <div class="project-item">
+                <h4>Java 8 to Java 21 - (Legacy Code Migration)</h4>
+                <ul class="project-bullets">
+                    <li>Led migration of Java 8 Maven projects to Java 21 using AI agents and FastAPI for enhanced performance.</li>
+                    <li>Utilized Neo4j Graph DB to store and analyze parsed project data, improving system scalability.</li>
+                    <li>Automated migration workflows with agents, integrating REST APIs for seamless data handling. (June 2025 - September 2025, currently working).</li>
+                </ul>
             </div>
-        </div>
-
-        <!-- Professional Summary -->
-        <div class="section">
-            <div class="section-title">PROFESSIONAL SUMMARY</div>
-            <p style="font-size: 9.5pt; line-height: 1.3; text-align: justify;">
-                Accomplished Full Stack Developer with <span class="bold-text">4+ years of experience</span> building scalable web applications using <span class="bold-text">React, Python, and FastAPI</span>. Expert in <span class="bold-text">Generative AI integration</span> with hands-on experience in LangChain, Langgraph, and advanced AI-driven solutions. Proven track record in database management (PostgreSQL, MongoDB, DynamoDB), cloud platforms (AWS services including S3, Lambda, Bedrock, SageMaker), and PowerBI dashboard development. Skilled in architecting robust systems, leading development teams, and delivering high-quality, cloud-ready applications with modern UI/UX enhancements.
-            </p>
-        </div>
-
-        <!-- Skills -->
-        <div class="section">
-            <div class="section-title">SKILLS</div>
-            <div class="skills-grid">
-                <div>
-                    <div class="skill-category">
-                        <div class="skill-title">• Backend Technologies:</div>
-                        <div class="skill-items">Python (primary), FastAPI, Flask, Node.js, JavaScript, REST APIs</div>
-                    </div>
-                    <div class="skill-category">
-                        <div class="skill-title">• Frontend & Mobile Development:</div>
-                        <div class="skill-items">React.js, Flutter (BLoC, Provider, Riverpod), JavaScript</div>
-                    </div>
-                    <div class="skill-category">
-                        <div class="skill-title">• AI & Machine Learning:</div>
-                        <div class="skill-items">Generative AI, LangChain, MCP, Agents, Langgraph, LangSmith, Document Parsing</div>
-                    </div>
-                    <div class="skill-category">
-                        <div class="skill-title">• LLM Providers:</div>
-                        <div class="skill-items">OpenAI, Anthropic, AWS Bedrock, Mistral, LLaMA, Groq</div>
-                    </div>
-                </div>
-                <div>
-                    <div class="skill-category">
-                        <div class="skill-title">• Databases:</div>
-                        <div class="skill-items">PostgreSQL, DynamoDB, MongoDB, MySQL, Redis, Neo4j, VectorDB, Pinecone</div>
-                    </div>
-                    <div class="skill-category">
-                        <div class="skill-title">• Cloud & AWS Services:</div>
-                        <div class="skill-items">AWS S3, EC2, Lambda, API Gateway, AWS Bedrock, AWS SageMaker, Docker, Kubernetes</div>
-                    </div>
-                    <div class="skill-category">
-                        <div class="skill-title">• Business Intelligence:</div>
-                        <div class="skill-items">PowerBI, Data Visualization, Excel/Word Export, Analytics Dashboards</div>
-                    </div>
-                    <div class="skill-category">
-                        <div class="skill-title">• Tools & Middleware:</div>
-                        <div class="skill-items">Nginx, VSCode, Git, GitHub, Azure, Design Patterns (MVC, MVVM)</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Work Experience -->
-        <div class="section">
-            <div class="section-title">WORK EXPERIENCE</div>
             
-            <div class="subsection">
-                <div class="job-header">
-                    <div class="job-title">1. e-Zest Digital Solutions - Senior Software Engineer</div>
-                </div>
-                <div class="company-info">Pune | 10/2021 - Current</div>
-
-                <div class="project-title">• Java 8 to Java 21 - (Legacy Code Migration)</div>
-                <ul class="sub-bullets">
-                    <li>Migrating the Java 8 Maven project to Java 21 Maven using AI agents.</li>
-                    <li>Team of agents analyzing, parsing, and ingesting project into Neo4j Graph DB.</li>
-                    <li>Automated migration using Agents. (June 2025 - September 2025, currently working).</li>
-                </ul>
-
-                <div class="project-title">• Perl to Java Migration - (Legacy Code Migration)</div>
-                <ul class="sub-bullets">
-                    <li>Parser to convert Perl legacy code into AST and store in Graph DB.</li>
-                    <li>Read from Graph DB to build context for Agents.</li>
-                    <li>Migrated legacy Perl code to Java. (August 2025 - current).</li>
-                </ul>
-
-                <div class="project-title">• JIMS Virtual Assistant</div>
-                <ul class="sub-bullets">
-                    <li>RAG-based chatbot with document ingestion for conversational queries.</li>
-                    <li>Escalates queries if no results are found in documents, based on user choice.</li>
-                    <li>Integrated multi-language support and stored user history for 8 hours per user.</li>
-                </ul>
-
-                <div class="project-title">• Code Parser</div>
-                <ul class="sub-bullets">
-                    <li>Transforms source code into Abstract Syntax Trees (ASTs) for deeper analysis.</li>
-                    <li>Supports Java, .NET, VB.NET, Delphi, XML, Perl, Ruby.</li>
-                    <li>Use cases: Code analysis, transformation, documentation, AI-driven insights.</li>
-                    <li>Extensible and adaptable for various parsing workflows.</li>
-                </ul>
-
-                <div class="project-title">• Knowledge Assistant and Extractor</div>
-                <ul class="sub-bullets">
-                    <li>AI-based chatbot with dynamic database management.</li>
-                    <li>Enabled natural language querying for direct database interaction.</li>
-                    <li>Extracted information based on user prompts and exported them into Excel.</li>
-                </ul>
-
-                <div class="project-title">• GenDash</div>
-                <ul class="sub-bullets">
-                    <li>Conversational chatbot for creating apps and adding dashboards.</li>
-                    <li>Allowed users to add charts to dashboards via natural language commands.</li>
-                </ul>
-
-                <div class="project-title">• NL Chatbot for Analytics</div>
-                <ul class="sub-bullets">
-                    <li>Frontend (Flutter) and Backend (Python) development.</li>
-                    <li>Created APIs with FastAPI and Flask.</li>
-                    <li>Integrated Generative AI (LangChain) for NLP.</li>
-                    <li>Enabled chatbot to query databases and documents directly.</li>
-                </ul>
-
-                <div class="project-title">• KAPS Framework</div>
-                <ul class="sub-bullets">
-                    <li>Knowledge Assistant: Conversational AI over domain-specific knowledge bases.</li>
-                    <li>Extractor: Data extraction with custom prompts.</li>
-                    <li>Analytics: Dashboard generation with intelligent charts.</li>
-                    <li>Multi-LLM Support: Integrations with OpenAI, Mistral, Bedrock, local LLMs.</li>
-                    <li>Tech Stack: Python, React, Neo4j.</li>
-                </ul>
-
-                <div class="project-title">• CWT Debt Collection Tool</div>
-                <ul class="sub-bullets">
-                    <li>Developed UI using Flutter and API integrations with Clean Architecture.</li>
-                    <li>Processed Excel data and automated property calls and status updates.</li>
-                    <li>Performed reconciliation and generated reports.</li>
-                </ul>
-
-                <div class="project-title">• Acti-on AI</div>
-                <ul class="sub-bullets">
-                    <li>Developed UI with Flutter and backend with Node.js.</li>
-                    <li>Kafka-driven event architecture with MongoDB integration.</li>
-                    <li>Implemented role assignment and subscription to Kafka topics.</li>
-                    <li>Built AI assistant for workflow creation.</li>
+            <div class="project-item">
+                <h4>Perl to Java Migration - (Legacy Code Migration)</h4>
+                <ul class="project-bullets">
+                    <li>Developed a parser using Python and FastAPI to convert Perl legacy code into AST, stored in Neo4j Graph DB.</li>
+                    <li>Built context-aware agents to facilitate migration to Java, ensuring reliable code transformation.</li>
+                    <li>Created detailed technical documentation and diagrams for the migration process. (August 2025 - current).</li>
                 </ul>
             </div>
-
-            <div class="subsection">
-                <div class="job-header">
-                    <div class="job-title">2. Dataviv Technologies - SE Intern</div>
-                </div>
-                <div class="company-info">Mumbai | 06/2021 - 09/2021</div>
-
-                <div class="project-title">• MyMarket</div>
-                <ul class="sub-bullets">
-                    <li>Developed and managed mobile applications using Flutter framework.</li>
-                    <li>Integrated APIs and conducted code refactoring for performance.</li>
-                    <li>Guided developers in maintaining code standards and best practices.</li>
-                    <li>Contributed to backend API development using NodeJS.</li>
-                    <li>Maintained mobile & web applications with API integrations.</li>
-                    <li>Worked in Agile methodology with cross-functional teams.</li>
+            
+            <div class="project-item">
+                <h4>JIMS Virtual Assistant</h4>
+                <ul class="project-bullets">
+                    <li>Designed a RAG-based chatbot using LangChain and PostgreSQL for document ingestion and conversational queries.</li>
+                    <li>Integrated GenAI solutions (OpenAI, Grok) to enhance user interaction and query escalation logic.</li>
+                    <li>Implemented Redis for caching user history (8-hour retention) and multi-language support, improving response times.</li>
+                </ul>
+            </div>
+            
+            <div class="project-item">
+                <h4>Code Parser</h4>
+                <ul class="project-bullets">
+                    <li>Built a Python-based parser to transform source code (Java, .NET, Perl, etc.) into ASTs for analysis.</li>
+                    <li>Integrated with FastAPI and Neo4j to support AI-driven insights and code transformation workflows.</li>
+                    <li>Documented parsing processes thoroughly, enabling extensibility for future use cases.</li>
+                </ul>
+            </div>
+            
+            <div class="project-item">
+                <h4>KAPS Framework</h4>
+                <ul class="project-bullets">
+                    <li>Developed a conversational AI platform using Python, React, and FastAPI, with Neo4j for knowledge management.</li>
+                    <li>Integrated GenAI providers (OpenAI, Mistral, AWS Bedrock) to enhance functionality and user experience.</li>
+                    <li>Created PowerBI dashboards for analytics, providing actionable insights from domain-specific data.</li>
+                </ul>
+            </div>
+            
+            <div class="project-item">
+                <h4>CWT Debt Collection Tool</h4>
+                <ul class="project-bullets">
+                    <li>Built a ReactJS-based UI with FastAPI backend, adhering to Clean Architecture principles.</li>
+                    <li>Automated Excel data processing and integrated APIs for property calls and status updates.</li>
+                    <li>Maintained PowerBI dashboards for reconciliation and reporting, ensuring data accuracy.</li>
+                </ul>
+            </div>
+            
+            <div class="project-item">
+                <h4>Acti-on AI</h4>
+                <ul class="project-bullets">
+                    <li>Developed a ReactJS frontend and FastAPI backend with Redis for event-driven architecture.</li>
+                    <li>Implemented GenAI workflows for AI assistant creation, enhancing user interaction.</li>
+                    <li>Integrated MongoDB and Python for file processing, with comprehensive technical documentation.</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="job-header">
+            <span class="job-title">Dataviv Technologies - SE Intern</span>
+            <span class="job-location-date">Mumbai | 06/2021 - 09/2021</span>
+        </div>
+        
+        <div class="project-list">
+            <div class="project-item">
+                <h4>MyMarket</h4>
+                <ul class="project-bullets">
+                    <li>Developed mobile applications using Flutter and React, integrating APIs for seamless functionality.</li>
+                    <li>Refactored backend APIs with Node.js and FastAPI to improve performance and maintainability.</li>
+                    <li>Collaborated with teams in Agile sprints, ensuring high-quality code and UI/UX enhancements.</li>
                 </ul>
             </div>
         </div>
 
-        <!-- Education -->
-        <div class="section">
-            <div class="section-title">EDUCATION</div>
-            <div class="education-item">
-                <div class="degree">• B.E Computer Science - Theem College of Engineering</div>
-                <div class="institution">| September 2021</div>
-            </div>
-            <div class="education-item">
-                <div class="degree">• HSC - RMC College of Science and Commerce</div>
-                <div class="institution">| October 2017</div>
-            </div>
+        <h2>Education</h2>
+        <div class="education-item">
+            <span class="education-title">B.E Computer Science - Theem College of Engineering</span>
+            <span class="education-date">September 2021</span>
+        </div>
+        <div class="education-item">
+            <span class="education-title">HSC - RMC College of Science and Commerce</span>
+            <span class="education-date">October 2017</span>
         </div>
 
-        <!-- Certifications -->
-        <div class="section">
-            <div class="section-title">CERTIFICATIONS</div>
-            <ul class="bullet-points">
-                <li>Flutter (Udemy) | September 2020</li>
-                <li>Python (Udemy) | October 2019</li>
-                <li>NodeJS (Udemy) | July 2021</li>
+        <h2>Certifications</h2>
+        <div class="cert-item">
+            <span class="cert-title">ReactJS (Udemy)</span>
+            <span class="cert-date">September 2020</span>
+        </div>
+        <div class="cert-item">
+            <span class="cert-title">Python (Udemy)</span>
+            <span class="cert-date">October 2019</span>
+        </div>
+        <div class="cert-item">
+            <span class="cert-title">FastAPI (Udemy)</span>
+            <span class="cert-date">August 2022</span>
+        </div>
+        <div class="cert-item">
+            <span class="cert-title">AWS Certified Developer – Associate</span>
+            <span class="cert-date">June 2023</span>
+        </div>
+
+        <h2>Roles and Responsibilities</h2>
+        <div class="responsibilities">
+            <ul>
+                <li>Full-stack development with React, Python, and FastAPI</li>
+                <li>Integrating GenAI solutions for intelligent application features</li>
+                <li>Maintaining and optimizing PostgreSQL and Redis databases</li>
+                <li>Creating and updating PowerBI dashboards for data-driven insights</li>
+                <li>Writing clear technical documentation and troubleshooting system issues</li>
+                <li>Collaborating with teams to integrate workflow automation tools</li>
+                <li>Mentoring L1 GenAI developers and sharing knowledge</li>
             </ul>
         </div>
 
-        <!-- Two Column Section -->
-        <div class="two-column">
-            <div>
-                <div class="section">
-                    <div class="section-title">ROLES AND RESPONSIBILITIES</div>
-                    <ul class="bullet-points">
-                        <li>Software Development (Full-Stack)</li>
-                        <li>Managing team of L1 GenAI developers</li>
-                        <li>L1, L2 Interview Panelist</li>
-                        <li>Project Architecture Setup</li>
-                        <li>Deployment and Maintenance</li>
-                    </ul>
-                </div>
+        <h2>Activities and Interests</h2>
+        <div class="activity-item">
+            <span class="activity-title">HackerRank (05/2019 - 2021):</span>
+            <span>Earned 3-star ratings in Python and Problem Solving.</span>
+        </div>
+        <div class="activity-item">
+            <span class="activity-title">CSI - Web Competition (07/2020):</span>
+            <span>Secured 3rd position in CSI's Web Designing Competition.</span>
+        </div>
+        <div class="activity-item">
+            <span class="activity-title">Neon Cricket Champion (03/2021):</span>
+            <span>Won the Neon Cricket final at Theem College of Engineering.</span>
+        </div>
 
-                <div class="section">
-                    <div class="section-title">LANGUAGES</div>
-                    <ul class="bullet-points">
-                        <li>English (Proficient)</li>
-                        <li>Hindi (Native)</li>
-                        <li>Marathi (Basic)</li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div>
-                <div class="section">
-                    <div class="section-title">ACTIVITIES AND INTERESTS</div>
-                    <ul class="bullet-points">
-                        <li>HackerRank (05/2019 - 2021): Earned 3-star ratings in Python and Problem Solving.</li>
-                        <li>CSI - Web Competition (07/2020): Secured 3rd position in CSI's Web Designing Competition.</li>
-                        <li>Neon Cricket Champion (03/2021): Won the Neon Cricket final at Theem College of Engineering.</li>
-                    </ul>
-                </div>
-            </div>
+        <h2>Languages</h2>
+        <div class="languages">
+            <div><span>English:</span> Proficient</div>
+            <div><span>Hindi:</span> Native</div>
+            <div><span>Marathi:</span> Basic</div>
         </div>
     </div>
 </body>
