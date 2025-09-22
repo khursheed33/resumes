@@ -21,8 +21,6 @@ Accomplished Backend Engineer with deep expertise in Python, Generative AI, and 
 
 ## WORK EXPERIENCE
 
----
-
   ### 1. e-Zest Digital Solutions - Senior Software Engineer  
   Pune | 10/2021 - Current  
   
@@ -78,8 +76,6 @@ Accomplished Backend Engineer with deep expertise in Python, Generative AI, and 
     - Worked in Agile methodology with cross-functional teams.  
 
 ## EDUCATION
-
----
 
 - **B.E Computer Science - Theem College of Engineering**  
   | September 2021  
