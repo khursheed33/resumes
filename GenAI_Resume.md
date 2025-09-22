@@ -1,9 +1,6 @@
 # KHURSHEED RAZZAK GADDI
 
-**Email:** gaddi33khursheed@gmail.com  
-**Phone:** (+91) 998-711-9862  
-**LinkedIn:** [LinkedIn](LinkedIn)  
-**Github:** [Github](Github)  
+**Email:** gaddi33khursheed@gmail.com  | **Phone:** (+91) 998-711-9862 | **LinkedIn:** [LinkedIn](LinkedIn) | **Github:** [Github](Github)  
 
 ## PROFESSIONAL SUMMARY
 
@@ -12,7 +9,7 @@ Accomplished Backend Engineer with deep expertise in Python, Generative AI, and 
 ## SKILLS
 
 - **Backend Technologies:** Python (primary), Node.js, JavaScript, Dart, FastAPI, Flask, Express.js, NodeRED, REST APIs  
-- **Frontend & Mobile Development:** Flutter (BLoC, Provider, Riverpod, Google Map, Geolocation, RazorPay), ReactJS  
+- **Frontend & Mobile Development:** ReactJS (BLoC, Provider, Riverpod, Google Map, Geolocation, RazorPay), ReactJS  
 - **AI & Machine Learning:** Generative AI, LangChain, MCP, Agents, Supervisor Workflows, Langgraph, LangSmith, Document Parsing, Code Parsing  
 - **LLM Providers:** OpenAI, Grok, Groq, Anthropic, Bedrock, Mistral, LLaMA  
 - **Tools:** VSCode, IntelliJ IDEA, Visual Studio, Android Studio, Cursor IDE  
@@ -48,22 +45,7 @@ Accomplished Backend Engineer with deep expertise in Python, Generative AI, and 
     - Transforms source code into Abstract Syntax Trees (ASTs) for deeper analysis.  
     - Supports Java, .NET, VB.NET, Delphi, XML, Perl, Ruby.  
     - Use cases: Code analysis, transformation, documentation, AI-driven insights.  
-    - Extensible and adaptable for various parsing workflows.  
-  
-  - **Knowledge Assistant and Extractor**  
-    - AI-based chatbot with dynamic database management.  
-    - Enabled natural language querying for direct database interaction.  
-    - Extracted information based on user prompts and exported them into Excel.  
-  
-  - **GenDash**  
-    - Conversational chatbot for creating apps and adding dashboards.  
-    - Allowed users to add charts to dashboards via natural language commands.  
-  
-  - **NL Chatbot for Analytics**  
-    - Frontend (Flutter) and Backend (Python) development.  
-    - Created APIs with FastAPI and Flask.  
-    - Integrated Generative AI (LangChain) for NLP.  
-    - Enabled chatbot to query databases and documents directly.  
+    - Extensible and adaptable for various parsing workflows.   
   
   - **KAPS Framework**  
     - Knowledge Assistant: Conversational AI over domain-specific knowledge bases.  
@@ -73,13 +55,14 @@ Accomplished Backend Engineer with deep expertise in Python, Generative AI, and 
     - Tech Stack: Python, React, Neo4j.  
   
   - **CWT Debt Collection Tool**  
-    - Developed UI using Flutter and API integrations with Clean Architecture.  
+    - Developed UI using ReactJS and API integrations with Clean Architecture.  
     - Processed Excel data and automated property calls and status updates.  
     - Performed reconciliation and generated reports.  
   
   - **Acti-on AI**  
-    - Developed UI with Flutter and backend with Node.js.  
-    - Kafka-driven event architecture with MongoDB integration.  
+    - Developed UI with ReactJS and backend with Node.js.  
+    - Kafka-driven event architecture with MongoDB integration.
+    - Python for I/O operations, processing files.  
     - Implemented role assignment and subscription to Kafka topics.  
     - Built AI assistant for workflow creation.  
   
@@ -105,7 +88,7 @@ Accomplished Backend Engineer with deep expertise in Python, Generative AI, and 
 
 ## CERTIFICATIONS
 
-- Flutter (Udemy) | September 2020  
+- ReactJS (Udemy) | September 2020  
 - Python (Udemy) | October 2019  
 - NodeJS (Udemy) | July 2021  
 
